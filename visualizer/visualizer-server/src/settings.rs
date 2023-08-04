@@ -48,7 +48,7 @@ impl Default for HttpServerSettings {
     fn default() -> Self {
         Self {
             enabled: true,
-            addr: SocketAddr::from_str("0.0.0.0:8050").expect("valid addr"),
+            addr: SocketAddr::from_str("0.0.0.0:8150").expect("valid addr"),
         }
     }
 }
@@ -64,7 +64,7 @@ impl Default for GrpcServerSettings {
     fn default() -> Self {
         Self {
             enabled: true,
-            addr: SocketAddr::from_str("0.0.0.0:8051").expect("valid addr"),
+            addr: SocketAddr::from_str("0.0.0.0:8151").expect("valid addr"),
         }
     }
 }
