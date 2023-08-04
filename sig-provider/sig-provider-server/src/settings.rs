@@ -40,11 +40,11 @@ impl Default for Settings {
             server: ServerSettings {
                 http: HttpServerSettings {
                     enabled: true,
-                    addr: SocketAddr::from_str("0.0.0.0:8050").unwrap(),
+                    addr: SocketAddr::from_str("0.0.0.0:8152").unwrap(),
                 },
                 grpc: GrpcServerSettings {
                     enabled: true,
-                    addr: SocketAddr::from_str("0.0.0.0:8051").unwrap(),
+                    addr: SocketAddr::from_str("0.0.0.0:9152").unwrap(),
                 },
             },
             sources: Default::default(),
